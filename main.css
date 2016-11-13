@@ -119,18 +119,24 @@ footer {
   margin: 0 auto;
   padding: 24px 0;
   border-top: 1px solid #a6a79f;
+  min-height: 435px;
 }
 
 .column {
   float: left;
   width: 21%;
   margin-left: 3%;
-  min-height: 435px;
   background: #FFF;
 }
 
 .column img {
   max-width: 100%;
+  cursor: pointer;
+}
+
+.column-desc {
+  padding-bottom: 50px;
+  display: none;
 }
 
 .column-desc p {
@@ -223,6 +229,5 @@ footer {
   .column {
     width: 80%;
     margin-left: 10%;
-    min-height: 500px;
   }
 }
