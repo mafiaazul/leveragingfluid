@@ -103,7 +103,11 @@ footer {
 }
 
 .main-nav img {
-  margin-top: 5px;
+  margin-top: 10px;
+}
+
+.splash-wrapper {
+    border-bottom: 1px solid #cacac5;
 }
 
 .splash {
@@ -113,12 +117,12 @@ footer {
 
 .splash img {
   max-width: 100%;
+  border: 2px solid #cacac5;
 }
 
 .column-wrap {
   margin: 0 auto;
   padding: 24px 0;
-  border-top: 1px solid #a6a79f;
   min-height: 435px;
 }
 
@@ -127,17 +131,24 @@ footer {
   width: 21%;
   margin-left: 3%;
   background: #FFF;
+  box-shadow: 0 0 5px 2px #ccc;
 }
+
+/*.column:hover .column-desc {
+  max-height: 400px;
+} */
 
 .column img {
   max-width: 100%;
   cursor: pointer;
 }
 
-.column-desc {
-  padding-bottom: 50px;
-  display: none;
-}
+/* .column-desc {
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height 1s linear;
+  transition: max-height 1s linear;
+} */
 
 .column-desc p {
   padding: 0 4%;
@@ -146,6 +157,10 @@ footer {
 .column-desc p:first-child {
   border-bottom: 1px solid #cacac5;
   padding-bottom: 3px;
+}
+
+.column-desc p:last-child {
+  padding-bottom: 50px;
 }
 
 .column-desc .plus {

@@ -1,3 +1,4 @@
+/*
 $(document).ready(function(){
     var mq = window.matchMedia('(max-width: 480px)');
     var $img = $('.column img');
@@ -16,3 +17,4 @@ $(document).ready(function(){
         });
     }
 });
+*/
